@@ -10,7 +10,61 @@
 </head>
 
 <body>
-    <script src="script.js"></script>
+
+<header>
+	<!--here I split the body into two parts
+		the upper one with the img/name are the first section of the upper part.
+
+		the info section are the another part of the upper zone and the experience and studies info are the last one of the upper part.-->
+	<div class="container">
+		<div class="partI">
+			<!--picture of the candidate-->
+		<img id="pic" alt="img">
+			<!--full name of the candidate-->
+		<h1><span id="name"></span></h1>
+		</div>
+			<!--personal info of the candidate-->
+		<div class="partII">
+			<p id="profile">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+				<!--phone of the candidate-->
+			<p>Phone : <span id="phone"></span></p>
+				<!--email of the candidate-->
+			<p>Email : <span id="email"></span></p>
+				<!--country of the candidate-->
+			<p>Country : <span id="country"></span></p>
+		</div>
+		<div class="partIII">
+			<h3 class="p3">Experience</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+			<h3 class="p3">Studies</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+	</div>
+</header>
+
+	<!--and the lower part are made with the footer, a contact form, a refresh button and a download button-->
+
+<footer>
+
+	<div class="containeri">
+		<form id="form">
+			<textarea id="formMessage" name="formMessage" id="formMessage"></textarea>
+			<button type="submit" id="sendform">SEND MESSAGE</button>
+		</form>
+			<!--button for get the next candidate-->
+		<div class="nextc">
+			<button id="nextc">NEXT CANDIDATE</button>
+		</div>
+		<div class="downloadcv">
+			<button id="downloadcv">DOWNLOAD CV</button>
+		</div>
+	</div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 
 </html>

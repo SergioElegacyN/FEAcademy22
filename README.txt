@@ -31,4 +31,14 @@ The "download cv" will download the cv into a .pdf file.
 ________________________________________________________________________________________________________________________
 
 Atte. Nieto Sergio
-January 25th, 18:36hs Bs. As. - Argentina.
+January 25th, 18:36hs Bs. As. - Argentina (GMT-3)
+________________________________________________________________________________________________________________________
+Update : January 26th, 20:44hs Bs. As. Argentina (GMT-3)
+
+. Added comments in the INDEX.HTML file and in the SCRIPT.JS file.
+. Added code to INDEX.HTML this isn't the final code, can change in the future.
+. Added utility in the SCRIPT.JS file :
+	- Created the fletch to the API.
+	- Created the function of refresh the info who is get from the API.
+	- Created the script for call the API when the INDEX.HTML file start.
+________________________________________________________________________________________________________________________
