@@ -7,8 +7,6 @@ For this proyect I gonna use :
 - HTML5 : to print the info in screen.
 - JavaScript : to connect with the API and GET the info in JSON, after that I gonna send the info to my INDEX.HTML files.
 - CSS3 : for styles I gonna use CSS3 with BOOTSTRAP library, to give personality to the INDEX.HTML file.
-- JQUERY : for call BOOTSTRAP succesfully.
-- BOOTSTRAP : to made the document responsive using the column system.
 ________________________________________________________________________________________________________________________
 I gonna divide the body into four parts: I-II-III-IV
 
@@ -41,4 +39,25 @@ Update : January 26th, 20:44hs Bs. As. Argentina (GMT-3)
 	- Created the fletch to the API.
 	- Created the function of refresh the info who is get from the API.
 	- Created the script for call the API when the INDEX.HTML file start.
+________________________________________________________________________________________________________________________
+Update : January 28th, 13:23hs Bs. As. Argentina (GMT-3)
+
+. Added send the mail form in INDEX.HTML file.
+. Added comments in the INDEX.HTML file and in the SCRIPT.JS file.
+. Modified the INDEX.HTML file.
+	- INDEX.HTML was separate in 3 parts :
+		- Left : Picture, profile, contact, skills.
+		- Right : Name, education, work experience.
+		- Bottom : Form, buttons.
+. Added utility in the SCRIPT.JS file :
+	- Created the submit event.
+	- Avoided the page refresh after submit.
+	- Seted the mail attributes.
+	- Created the randomYear function
+	- Created the printPDF function
+. Added styles in the INDEX.HTML with the STYLES.CSS
+	- Added style to the left side.
+	- Added style to the right side.
+	- Added style to the bottom side.
+	- Added style to the buttons.
 ________________________________________________________________________________________________________________________

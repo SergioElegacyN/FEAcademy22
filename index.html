@@ -12,59 +12,176 @@
 <body>
 
 <header>
-	<!--here I split the body into two parts
-		the upper one with the img/name are the first section of the upper part.
+	<!--here I split the body into two parts : Left and Right.
+		Left contains the picture, personal info, skills and contact info.
+		Right contains the name, studies and job experience.-->
 
-		the info section are the another part of the upper zone and the experience and studies info are the last one of the upper part.-->
-	<div class="container">
-		<div class="partI">
-			<!--picture of the candidate-->
-		<img id="pic" alt="img">
-			<!--full name of the candidate-->
-		<h1><span id="name"></span></h1>
-		</div>
-			<!--personal info of the candidate-->
-		<div class="partII">
-			<p id="profile">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua.</p>
-				<!--phone of the candidate-->
-			<p>Phone : <span id="phone"></span></p>
-				<!--email of the candidate-->
-			<p>Email : <span id="email"></span></p>
-				<!--country of the candidate-->
-			<p>Country : <span id="country"></span></p>
-		</div>
-		<div class="partIII">
-			<h3 class="p3">Experience</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua.</p>
-			<h3 class="p3">Studies</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua.</p>
-		</div>
-	</div>
-</header>
+
+	<div class="main">
+		<div class="left">
+			<br>
+			<div class="profile-img">
+				<!--picture of the candidate-->
+				<img id="pic" alt="img"></img>
+			</div>
+
+			<div class="box-1">
+				<div class="heading">
+					<!--profile of the candidate-->
+					<p>PROFILE</p>
+				</div>
+				<p class="p1">Hi, I'm <span id="profileName"></span>, and I have <span id="yearsOld"></span> years old. I'm a very responsable person from <span id="country"></span> looking for my first job in the IT world, I would appreciate any opportunity to develop my career.</p>
+			</div>
+			<br>
+
+			<div class="box-1">
+				<div class="heading">
+					<!--personal info of the candidate-->
+					<p>CONTACT</p>
+				</div>
+				<p class="p1">
+					<i class="icons1">Phone :</i>
+					<p class="p1">
+						<span id="phone"></span>
+					</p>
+				</p>
+				<p class="p1">
+					<i class="icons1">Email :</i>
+					<p class="p1">
+						<span id="email"></span>
+					</p>
+				</p>
+			</div>
+			<br>
+
+			<div class="box-1">
+				<div class="heading">
+					<!--skills of the candidate-->
+					<p>LANGUAGES</p>
+				</div>
+
+				<p class="p1">HTML</p>
+				<div class="skill-container">
+					<div class="skill html"></div>
+				</div>
+
+				<p class="p1">CSS</p>
+				<div class="skill-container">
+					<div class="skill css"></div>
+				</div>
+
+				<p class="p1">JS</p>
+				<div class="skill-container">
+					<div class="skill js"></div>
+				</div>
+
+				<p class="p1">GIT</p>
+				<div class="skill-container">
+					<div class="skill git"></div>
+				</div>
+			</div>
+
+		</div> <!--end of the .left-->
+
+		<div class="right">
+			<div class="name-div">
+				<h1><span id="name"></span></h1>
+			</div>
+
+			<div class="box-2">
+				<div class="headright">
+					<!--academy record of the candidate-->
+					<h2>EDUCATION<i class="icons3" style="font-size: 28px!important;"></i></h2>
+				</div>
+				<p class="p3">2010-2013 <span>Lorem Ipsum</span></p>
+				<p class="p2">
+					Lorem ipsum dolor sit amet-
+				</p>
+
+				<p class="p3">2013-2016 <span>Lorem Ipsum</span></p>
+				<p class="p2">
+					Lorem ipsum dolor sit amet-
+				</p>
+
+				<p class="p3">2016-2020 <span>Lorem Ipsum</span></p>
+				<p class="p2">
+					Lorem ipsum dolor sit amet-
+				</p>
+			</div>
+
+			<div class="box-2">
+				<div class="headright">
+					<!--experience record of the candidate-->
+					<h2>WORK EXPERIENCE<i class="icons3" style="font-size: 28px;"></i></h2>
+				</div>
+				<p class="p3" id="yearOne"></p>
+				<p class="p2">
+					Lorem ipsum dolor sit amet-
+				</p>
+
+				<p class="p3" id="yearTwo"></p>
+				<p class="p2">
+					Lorem ipsum dolor sit amet-
+				</p>
+
+				<p class="p3" id="yearThree"></p>
+				<p class="p2">
+					Lorem ipsum dolor sit amet-
+				</p>
+
+				<p class="p3" id="yearFour"></p>
+				<p class="p2">
+					Lorem ipsum dolor sit amet-
+				</p>
+
+				<p class="p3" id="yearFive"></p>
+				<p class="p2">
+					Lorem ipsum dolor sit amet-
+				</p>
+			</div>
+		</div> <!--end of the .right-->
 
 	<!--and the lower part are made with the footer, a contact form, a refresh button and a download button-->
 
-<footer>
 
-	<div class="containeri">
-		<form id="form">
-			<textarea id="formMessage" name="formMessage" id="formMessage"></textarea>
-			<button type="submit" id="sendform">SEND MESSAGE</button>
-		</form>
-			<!--button for get the next candidate-->
-		<div class="nextc">
-			<button id="nextc">NEXT CANDIDATE</button>
-		</div>
-		<div class="downloadcv">
-			<button id="downloadcv">DOWNLOAD CV</button>
-		</div>
-	</div>
-</footer>
 
+		<!--I put my email to get msg from people who saw my proyect-->
+
+		<div class="bottom">
+			<form id="form">
+				<h2 id="mailMe">Have a suggestion about the code? Mail me!</h2>
+				<!--please insert a subject for the email you gonna send, EJ : "Code Tips"-->
+				<label for="textform">Subject<span>*</span></label>
+				<input type="text" required name="formSubject" id="formName">
+				<br>
+				<!--please insert the body text of what you want said to me, EJ : "Hello"-->
+				<label for="message">Message</label>
+				<textarea name="formMessage" id="formMessage"></textarea>
+				<br>
+				<!--send email button-->
+				<button type="submit" id="sendform">SEND MESSAGE</button>
+			</form>
+
+		
+
+				<!--button for get the next candidate-->
+			<div class="nextc">
+				<button class="btn" id="nextc">NEXT CANDIDATE</button>
+			</div>
+			<br>
+
+				<!--button for download the cv in .pdf format-->
+			<div class="downloadcv">
+				<button class="btn" id="downloadcv">DOWNLOAD CV</button>
+			</div>
+		</div> <!--end of the .bottom-->
+
+	</div> <!--end of the .main-->
+</header>
+
+<a href="mailto:nietohernansergio@gmail.com" id="fillEmail">mail</a>
 <script src="script.js"></script>
+
 </body>
 
 </html>
