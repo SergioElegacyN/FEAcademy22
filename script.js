@@ -152,7 +152,6 @@ nextc.addEventListener('click', generateSkill);
 // we made a alert with the instructions
 	function generatePDF(){
 		
-		window.alert("More adjustments:	Papper size : [A2] / Advanced Options: Scale : Custom [110] / Header and Footer : [ON] / Background Graphics : [ON]");
 		window.print();
 	}
 
@@ -160,3 +159,18 @@ nextc.addEventListener('click', generateSkill);
 // button "DOWNLOAD CV" is clicked.
 downloadcv.addEventListener('click', generatePDF);
 
+
+//====================================================//
+
+
+// set the modal event
+const modal = document.getElementById('instructionsText');
+
+// when the modal is displayed and
+// the user do click out of the modal
+// this is closed.
+window.onclick = function(event) {
+	if (event.target == modal) {
+		modal.style.display = "none";
+	}
+}

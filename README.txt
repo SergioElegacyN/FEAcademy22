@@ -61,3 +61,15 @@ Update : January 28th, 13:23hs Bs. As. Argentina (GMT-3)
 	- Added style to the bottom side.
 	- Added style to the buttons.
 ________________________________________________________________________________________________________________________
+Update : January 29th, 19:37hs Bs. As. Argentina (GMT-3)
+
+. Added the modal for download instructions.
+. Fixed the responsive issues.
+. Added Bootstrap 5.3.0 :
+	- Grid system deployed.
+	- Form display fixed.
+. Added w3css
+	- Modal display added.
+	- Modal animation added.
+. Changed the background colours #fbb03b, #ffffff for #2b2b2b, #eecd8c, and #bbb.
+________________________________________________________________________________________________________________________
