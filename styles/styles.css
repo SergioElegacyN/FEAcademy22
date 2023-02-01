@@ -1,6 +1,41 @@
+<<<<<<< HEAD
 body {
 	background-image: linear-gradient(to bottom, #bbb, #636162, #4d4d4d);
 	letter-spacing: 2px;
+=======
+:root {
+	--background-color-left: #EECD8C;
+	--font-color-left: #2B2B2B;
+	--background-color-right: #ddd;
+	--font-color-right: #4d4d4d;
+	--skill-background-color: #4d4d4d;
+};
+
+[theme = "dark"] {
+	--background-color-left: #2B2B2B;
+	--font-color-left: #EECD8C;
+	--background-color-right: #ffffff;
+	--font-color-right: #2B2B2B;
+	--skill-background-color: #4d4d4d;
+}
+
+[theme = "light"] {
+	--background-color-right: #2B2B2B;
+	--font-color-right: #EECD8C;
+	--background-color-left: #4B4B4B;
+	--font-color-left: #EECD8C;
+	--skill-background-color: #EECD8C;
+}
+
+body {
+	background-image: linear-gradient(to bottom, #bbb, #636162, #4d4d4d);
+	letter-spacing: 2px;
+	scroll-behavior: smooth;
+}
+
+header {
+	margin-bottom: 40px;
+>>>>>>> 4ae92fc (new implementation patch)
 }
 
 /*start of left style*/
@@ -10,8 +45,14 @@ body {
 	width: 180px;
 	background-color: #ddd;
 	border-radius: 50%;
+<<<<<<< HEAD
 	margin-bottom: 20px;
 	margin-left: 60px;
+=======
+	margin-top: 5px;
+	margin-bottom: 20px;
+	margin-left: 25%;
+>>>>>>> 4ae92fc (new implementation patch)
 	border: 10px solid #fbb03b;
 	box-shadow: 6px 7px 9px 5px #fbb03b73;
 }
@@ -45,8 +86,13 @@ i {
 }
 
 .left {
+<<<<<<< HEAD
 	background-color: #2B2B2B;
 	color: #EECD8C;
+=======
+	background-color: var(--background-color-left);
+	color: var(--font-color-left);
+>>>>>>> 4ae92fc (new implementation patch)
 	width: 200px;
 	height: 100%;
 	float: left;
@@ -58,7 +104,11 @@ start of skills styles*/
 
 .skill-container {
 	width: 90%;
+<<<<<<< HEAD
 	background-color: #4d4d4d;
+=======
+	background-color: var(--skill-background-color);
+>>>>>>> 4ae92fc (new implementation patch)
 	margin: 0px 10px;
 }
 
@@ -91,8 +141,14 @@ _____________________________________________________________________
 start of the right styles*/
 
 .right {
+<<<<<<< HEAD
 	background-color: #EECD8C;
 	color: #2B2B2B;
+=======
+	background-color: var(--background-color-right);
+	color: var(--font-color-right);
+	padding-top: 26px;
+>>>>>>> 4ae92fc (new implementation patch)
 }
 
 .name-div h1 {
@@ -153,10 +209,18 @@ start of bottom styles*/
 
 .bottom {
 	background-image: linear-gradient(to top, #2B2B2B, #4d4d4d);
+<<<<<<< HEAD
+=======
+	padding-bottom: 0.5rem;
+>>>>>>> 4ae92fc (new implementation patch)
 }
 
 form {
 	background-color: #bbb;
+<<<<<<< HEAD
+=======
+	padding: 2rem;
+>>>>>>> 4ae92fc (new implementation patch)
 }
 
 .w3-container {
@@ -169,6 +233,17 @@ form {
 	color: white;
 }
 
+<<<<<<< HEAD
+=======
+.mb-3 {
+	margin: 2rem;
+}
+
+#sendform {
+	margin-right: 2rem;
+}
+
+>>>>>>> 4ae92fc (new implementation patch)
 /*end of bottom styles
 
 _____________________________________________________________________
@@ -197,6 +272,17 @@ start of buttons styles*/
 	color: black;
 }
 
+<<<<<<< HEAD
+=======
+  input:checked + .slider {
+    background-color: var(--font-color-left);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px var(--font-color-right);
+  }
+  
+>>>>>>> 4ae92fc (new implementation patch)
 /*end of buttons styles*/
 
 #fillEmail {

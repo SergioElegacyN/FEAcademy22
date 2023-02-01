@@ -7,7 +7,11 @@
 // function "generateUser", but first
 // we declare that data as .json
 
+<<<<<<< HEAD
 const boton = document.querySelector('#nextc');
+=======
+const buton = document.querySelector('#lastc');
+>>>>>>> 4ae92fc (new implementation patch)
 const pic = document.querySelector('#pic');
 const name = document.querySelector('#name');
 const phone = document.querySelector('#phone');
@@ -173,4 +177,31 @@ window.onclick = function(event) {
 	if (event.target == modal) {
 		modal.style.display = "none";
 	}
+<<<<<<< HEAD
 }
+=======
+}
+
+//====================================================//
+
+// implemented the change color theme function
+// for this we save the data into a localStorage
+// and do a comparison for set the new theme.
+const preferedColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+const slider = document.getElementById('themo');
+
+const setTheme = (theme) => {
+	document.documentElement.setAttribute('theme', theme);
+	localStorage.setItem('theme', theme);
+}
+
+slider.addEventListener('click', () => {
+	let switchToTheme = localStorage.getItem('theme') === 'dark' ? 'light' : 'dark';
+	setTheme(switchToTheme);
+});
+
+setTheme(localStorage.getItem('theme') || preferedColorScheme);
+
+//====================================================//
+
+>>>>>>> 4ae92fc (new implementation patch)
