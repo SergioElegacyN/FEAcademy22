@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Final Proyect -by Nieto Sergio</title>
+</head>
+
+<body>
+
+<header>
+	<nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+		<div class="container-fluid justify-content-center">
+			<div class="navbar-nav" id="navbarNav">
+				<a class="nav-link" href="#" id="onTop">Top</a>
+				<a class="nav-link" href="#profile" id="onProfile">Profile</a>
+				<a class="nav-link" href="#skills" id="onSkills">Skills</a>
+				<a class="nav-link" href="#education" id="onEducation">Education</a>
+				<a class="nav-link" href="#experience" id="onExperience">Experience</a>
+				<a class="nav-link" href="#form" id="onForm">Form</a>
+				<a class="nav-link" href="#buttons" id="onButtons">Buttons</a>
+			</div>
+		</div>
+	</nav> <!--end of nav(17)-->
+</header> <!--end of header(16)-->
+
+<div class="container main">
+	<div class="row">
+
+		<div class="col-xl-5 col-md-5 col-sm-12 left">
+
+			<div class="col profile-img text-center">
+				<img id="pic" alt="img"></img>
+			</div>
+
+			<div class="heading">
+				<h2 id="profile">PROFILE</h2> <!--profile of the candidate-->
+			</div>
+
+			<p class="p1">Hi, I'm <span id="profileName"></span>, and I have <span id="yearsOld"></span> years old. I'm a very responsable person from <span id="country"></span> looking for my first job in the IT world, I would appreciate any opportunity to develop my career.</p>
+
+			<div class="box-1">
+
+				<div class="heading">
+					<h2>CONTACT</h2> <!--personal info of the candidate-->
+				</div>
+
+				<br>
+
+				<i class="p1">Phone : </i>
+				<p class="p1">
+					<span id="phone"></span>
+				</p>
+
+				<i class="p1">Email : </i>
+				<p class="p1">
+					<span id="email"></span>
+				</p>
+
+			</div> <!--end of .box-1(47)-->
+
+			<div class="box-1">
+
+				<div class="heading" id="skills">
+					<h2>SKILLS</h2>
+				</div>
+
+				<br>
+
+				<p class="p1">HTML</p>
+				<div class="skill-container">
+					<div class="skill html"></div>
+				</div>
+
+				<br>
+
+				<p class="p1">CSS</p>
+				<div class="skill-container">
+					<div class="skill css"></div>
+				</div>
+
+				<br>
+
+				<p class="p1">JS</p>
+				<div class="skill-container">
+					<div class="skill js"></div>
+				</div>
+
+				<br>
+
+				<p class="p1">GIT</p>
+				<div class="skill-container">
+					<div class="skill git"></div>
+				</div>
+
+				<br>
+
+			</div> <!--end of .box-1(67)-->
+
+		</div> <!--end of .left(35)-->
+
+		<div class="col-xl-7 col-md-7 col-sm-12 right">
+
+			<div class="name-div text-center">
+				<h1><span id="name"></span></h1>
+				<h2>Developer</h2>
+			</div>
+	
+			<div class="box-2">
+				<div class="headright" id="education">
+					<h2>EDUCATION</h2> <!--academy record of the candidate-->
+				</div>
+	
+				<p class="p3">2016-2020<span>Lorem Ipsum</span></p>
+				<p class="p2">Lorem Ipsum mastery</p>
+	
+				<p class="p3">2013-2016<span>Lorem Ipsum</span></p>
+				<p class="p2">Lorem Ipsum degree</p>
+	
+				<p class="p3">2010-2013<span>Lorem Ipsum</span></p>
+				<p class="p2">Lorem Ipsum bachelor</p>
+		
+			</div> <!--end of .box-2(114)-->
+
+			<div class="box-2">
+				<div class="headright" id="experience">
+					<h2>WORK EXPERIENCE</h2> <!--experience record of the candidate-->
+				</div>
+
+				<p id="yearOne" class="p3"></p>
+				<p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+				<p id="yearTwo" class="p3"></p>
+				<p class="p2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+				<p id="yearThree" class="p3"></p>
+				<p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+				<p id="yearFour" class="p3"></p>
+				<p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+				<p id="yearFive" class="p3"></p>
+				<p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+			</div> <!--end of .box-2(130)-->
+
+		</div> <!--end of .right(107)-->
+
+	</div> <!--end of the .row(33)-->
+</div> <!--end of the container .main(32)-->
+
+<div class="container bottom">
+	<div class="row">
+
+		<form id="form">
+
+			<h2 class="text-center">Have a suggestion about the code? Mail me!</h2>
+
+			<div class="mb-3"> <!--please insert a subject for the email you gonna send, EJ : "Code Tips"-->
+				<label for="formSubject" class="form-label">Subject</label>
+				<input class="form-control" id="formSubject" required name="formSubject" placeholder="Subject..."></input>
+			</div>
+
+			<div class="mb-3"> <!--please insert the body text of what you want said to me, EJ : "Hello"-->
+				<label for="TextForm" class="form-label">Message</label>
+				<textarea class="form-control" id="formMessage" name="formMessage" rows="4" placeholder="Message..."></textarea>
+			</div>
+
+			<div class="col-sm-12 text-end"> <!--send email button-->
+				<button class="btnsss" type="submit" id="sendform">SEND MESSAGE</button>
+			</div>
+
+		</form> <!--end of the form(160)-->
+
+			<div class="col text-center col-md-3 col-sm-6" id="buttons"> <!--button for get the next candidate-->
+				<button class="btnsss" id="nextc">NEXT CANDIDATE</button>
+			</div>
+
+			<div class="col text-center col-md-3 col-sm-6"> <!--button for get the download instructions-->
+				<button onclick="document.getElementById('instructionsText').style.display='block'"  class="btnsss">INSTRUCTIONS</button>
+			</div>
+
+			<div class="col text-center col-md-3 col-sm-6"> <!--button for download the cv in .pdf format-->
+				<button class="btnsss" id="downloadcv">DOWNLOAD CV</button>
+			</div>
+
+			<div class="col text-center col-md-3 col-sm-6"> <!--button for change the color style-->
+				<button class="btnsss" id="themo">CHANGE THEME</button>
+			</div>
+
+			<div id="instructionsText" class="w3-modal">
+				<div class="w3-modal-content w3-animate-opacity w3-animate-top">
+					<div class="w3-container">
+						<span onclick="document.getElementById('instructionsText').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+						<h2>More adjustments :</h2>
+						<h3>Papper size : <b>A2</b></h3>
+						<br>
+						<h2>Advanced Options :</h2>
+						<h3>Scale : <b>Custom [110]</b></h3>
+						<h3>Header and Footer : <b>[ON]</b></h3>
+						<h3>Background Graphics : <b>[ON]</b></h3>						
+					</div>
+				</div>
+			</div> <!--end of the modal(196)-->
+
+	</div> <!--end of the .row(158)-->
+</div> <!--end of the container .bottom(157)-->
+
+
+<a href="mailto:nietohernansergio@gmail.com" id="fillEmail">mail</a>
+<!--I put my email to get msg from people who saw my proyect-->
+
+<script src="script.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</body>
+
+</html>

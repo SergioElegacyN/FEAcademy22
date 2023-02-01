@@ -1,0 +1,256 @@
+:root {
+	--background-color-left: #EECD8C;
+	--font-color-left: #2B2B2B;
+	--background-color-right: #ddd;
+	--font-color-right: #4d4d4d;
+	--skill-background-color: #4d4d4d;
+};
+
+[theme = "dark"] {
+	--background-color-left: #2B2B2B;
+	--font-color-left: #EECD8C;
+	--background-color-right: #ffffff;
+	--font-color-right: #2B2B2B;
+	--skill-background-color: #4d4d4d;
+}
+
+[theme = "light"] {
+	--background-color-right: #2B2B2B;
+	--font-color-right: #EECD8C;
+	--background-color-left: #4B4B4B;
+	--font-color-left: #EECD8C;
+	--skill-background-color: #EECD8C;
+}
+
+body {
+	background-image: linear-gradient(to bottom, #bbb, #636162, #4d4d4d);
+	letter-spacing: 2px;
+	scroll-behavior: smooth;
+}
+
+header {
+	margin-bottom: 40px;
+}
+
+/*start of left style*/
+
+.profile-img {
+	height: 180px;
+	width: 180px;
+	background-color: #ddd;
+	border-radius: 50%;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	margin-left: 25%;
+	border: 10px solid #fbb03b;
+	box-shadow: 6px 7px 9px 5px #fbb03b73;
+}
+
+.profile-img img {
+	width: 100%;
+	border-radius:50%;
+}
+
+.box-1 {
+	position: relative;
+}
+
+.heading {
+	background: linear-gradient(to right, #EECD8C, #bbb);
+	padding: 3px;
+	color: #4d4d4d;
+	text-align: left;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+.p1 {
+	padding: 9px 10px;
+}
+
+i {
+	padding-right: 10px;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.left {
+	background-color: var(--background-color-left);
+	color: var(--font-color-left);
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+
+/*end of the left styles*
+_____________________________________________________________________
+start of skills styles*/
+
+.skill-container {
+	width: 90%;
+	background-color: var(--skill-background-color);
+	margin: 0px 10px;
+}
+
+.skill {
+	text-align: right;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: white;
+}
+
+.html {
+	background-color: white;
+}
+
+.css {
+	background-color: white;
+}
+
+.js {
+	background-color: white;
+}
+
+.git {
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+/*end of skills styles
+_____________________________________________________________________
+start of the right styles*/
+
+.right {
+	background-color: var(--background-color-right);
+	color: var(--font-color-right);
+	padding-top: 26px;
+}
+
+.name-div h1 {
+	margin-bottom: 10px;
+	font-style: italic;
+}
+
+.name-div h2 {
+	opacity: 0.6;
+	font-style: italic;
+}
+
+.box-2 {
+	padding: 0px 50px;
+	margin-top: 30px;
+}
+
+.p2 {
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 18px;
+	margin-top: 5px;
+	opacity: 0.5;
+	font-style: italic;
+}
+
+h2 {
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+.p3 {
+	font-size: 13px;
+	word-spacing: 1px;
+	letter-spacing: 0px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.p3 span {
+	color: #2d2d2d;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.headright {
+	background: linear-gradient(to right, #4d4d4d, #bbb);
+	color: #EECD8C;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+/*end of the right styles
+_____________________________________________________________________
+start of bottom styles*/
+
+.bottom {
+	background-image: linear-gradient(to top, #2B2B2B, #4d4d4d);
+	padding-bottom: 0.5rem;
+}
+
+form {
+	background-color: #bbb;
+	padding: 2rem;
+}
+
+.w3-container {
+	background-image: linear-gradient(to bottom, #4d4d4d, black);
+	color: #EECD8C;
+	text-align: center;
+}
+
+.w3-container h2 {
+	color: white;
+}
+
+.mb-3 {
+	margin: 2rem;
+}
+
+#sendform {
+	margin-right: 2rem;
+}
+
+/*end of bottom styles
+
+_____________________________________________________________________
+start of buttons styles*/
+
+.btnsss {
+	color: white;
+	background-image: linear-gradient(to left, #fbb03b, #bbb, #4d4d4d);
+	cursor: pointer;
+	border: 1px solid rgba(100,100,100,0.9);
+	padding: 10px;
+	font-family: sans-serif;
+	border-radius: 20px;
+	background-size: 300%;
+	border-width: 5px;
+	margin: 10px;
+	transition: 1s;
+	flex: wrap;
+	font-weight: bold;
+}
+
+.btnsss:hover {
+	background-image: linear-gradient(to left, #bbb, #fbb03b);	
+	box-shadow: 0 0 4px #fbb03b, 0 0 12px #fbb03b, 0 0 16px #fbb03b;
+	transition: 1s;
+	color: black;
+}
+
+  input:checked + .slider {
+    background-color: var(--font-color-left);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px var(--font-color-right);
+  }
+  
+/*end of buttons styles*/
+
+#fillEmail {
+	opacity: 0;
+	pointer-events: none;
+	cursor: default;
+}
+
