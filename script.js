@@ -8,10 +8,14 @@
 // we declare that data as .json
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const boton = document.querySelector('#nextc');
 =======
 const buton = document.querySelector('#lastc');
 >>>>>>> 4ae92fc (new implementation patch)
+=======
+const buton = document.querySelector('#lastc');
+>>>>>>> 4ae92fc6bd5124264f9b4ca95470891b15c57722
 const pic = document.querySelector('#pic');
 const name = document.querySelector('#name');
 const phone = document.querySelector('#phone');
@@ -178,8 +182,11 @@ window.onclick = function(event) {
 		modal.style.display = "none";
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
+=======
+>>>>>>> 4ae92fc6bd5124264f9b4ca95470891b15c57722
 }
 
 //====================================================//
@@ -204,4 +211,7 @@ setTheme(localStorage.getItem('theme') || preferedColorScheme);
 
 //====================================================//
 
+<<<<<<< HEAD
 >>>>>>> 4ae92fc (new implementation patch)
+=======
+>>>>>>> 4ae92fc6bd5124264f9b4ca95470891b15c57722
