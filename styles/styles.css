@@ -6,7 +6,7 @@
 	--skill-background-color: #4d4d4d;
 };
 
-[theme = "dark"] {
+[theme = "light"] {
 	--background-color-left: #2B2B2B;
 	--font-color-left: #EECD8C;
 	--background-color-right: #ffffff;
@@ -14,7 +14,7 @@
 	--skill-background-color: #4d4d4d;
 }
 
-[theme = "light"] {
+[theme = "dark"] {
 	--background-color-right: #2B2B2B;
 	--font-color-right: #EECD8C;
 	--background-color-left: #4B4B4B;
@@ -26,6 +26,10 @@ body {
 	background-image: linear-gradient(to bottom, #bbb, #636162, #4d4d4d);
 	letter-spacing: 2px;
 	scroll-behavior: smooth;
+}
+
+.navbar {
+	box-shadow: 0rem 0rem 3rem rgba(0, 0, 0, 0.8);
 }
 
 header {

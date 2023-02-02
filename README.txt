@@ -90,3 +90,8 @@ Update : Fabruary 1st, 20:48hs Bs. As. Argentina (GMT-3)
 . Fixed padding/margin visual.
 	- Changed the margin and padding of the form.
 ________________________________________________________________________________________________________________________
+Update : Fabruary 2nd, 17:29hs Bs. As. Argentina (GMT-3)
+
+. Fixed navbar toggle don't display error.
+. Fixed navbar toggle ocuppy 50% of the screen in mobile.
+________________________________________________________________________________________________________________________
