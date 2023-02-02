@@ -73,3 +73,20 @@ Update : January 29th, 19:37hs Bs. As. Argentina (GMT-3)
 	- Modal animation added.
 . Changed the background colours #fbb03b, #ffffff for #2b2b2b, #eecd8c, and #bbb.
 ________________________________________________________________________________________________________________________
+Update : Fabruary 1st, 20:48hs Bs. As. Argentina (GMT-3)
+
+. Added a responsive stick Navbar with scroll.
+	- Link to Top.
+	- Link to Profile.
+	- Link to Skills.
+	- Link to Education.
+	- Link to Experience.
+	- Link to Form.
+	- Link to Buttons.
+. Added a light/dark button.
+	- Change the background color and font color of left side.
+	- Change the background color and font color of right side.
+	- The user preference is stored in LocalStorage.
+. Fixed padding/margin visual.
+	- Changed the margin and padding of the form.
+________________________________________________________________________________________________________________________
