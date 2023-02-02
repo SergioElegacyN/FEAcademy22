@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-body {
-	background-image: linear-gradient(to bottom, #bbb, #636162, #4d4d4d);
-	letter-spacing: 2px;
-=======
-=======
->>>>>>> 4ae92fc6bd5124264f9b4ca95470891b15c57722
 :root {
 	--background-color-left: #EECD8C;
 	--font-color-left: #2B2B2B;
@@ -38,10 +30,6 @@ body {
 
 header {
 	margin-bottom: 40px;
-<<<<<<< HEAD
->>>>>>> 4ae92fc (new implementation patch)
-=======
->>>>>>> 4ae92fc6bd5124264f9b4ca95470891b15c57722
 }
 
 /*start of left style*/
@@ -51,20 +39,9 @@ header {
 	width: 180px;
 	background-color: #ddd;
 	border-radius: 50%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-	margin-bottom: 20px;
-	margin-left: 60px;
-=======
 	margin-top: 5px;
 	margin-bottom: 20px;
 	margin-left: 25%;
->>>>>>> 4ae92fc (new implementation patch)
-=======
-	margin-top: 5px;
-	margin-bottom: 20px;
-	margin-left: 25%;
->>>>>>> 4ae92fc6bd5124264f9b4ca95470891b15c57722
 	border: 10px solid #fbb03b;
 	box-shadow: 6px 7px 9px 5px #fbb03b73;
 }
@@ -98,18 +75,8 @@ i {
 }
 
 .left {
-<<<<<<< HEAD
-<<<<<<< HEAD
-	background-color: #2B2B2B;
-	color: #EECD8C;
-=======
 	background-color: var(--background-color-left);
 	color: var(--font-color-left);
->>>>>>> 4ae92fc (new implementation patch)
-=======
-	background-color: var(--background-color-left);
-	color: var(--font-color-left);
->>>>>>> 4ae92fc6bd5124264f9b4ca95470891b15c57722
 	width: 200px;
 	height: 100%;
 	float: left;
@@ -121,15 +88,7 @@ start of skills styles*/
 
 .skill-container {
 	width: 90%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-	background-color: #4d4d4d;
-=======
 	background-color: var(--skill-background-color);
->>>>>>> 4ae92fc (new implementation patch)
-=======
-	background-color: var(--skill-background-color);
->>>>>>> 4ae92fc6bd5124264f9b4ca95470891b15c57722
 	margin: 0px 10px;
 }
 
@@ -162,20 +121,9 @@ _____________________________________________________________________
 start of the right styles*/
 
 .right {
-<<<<<<< HEAD
-<<<<<<< HEAD
-	background-color: #EECD8C;
-	color: #2B2B2B;
-=======
 	background-color: var(--background-color-right);
 	color: var(--font-color-right);
 	padding-top: 26px;
->>>>>>> 4ae92fc (new implementation patch)
-=======
-	background-color: var(--background-color-right);
-	color: var(--font-color-right);
-	padding-top: 26px;
->>>>>>> 4ae92fc6bd5124264f9b4ca95470891b15c57722
 }
 
 .name-div h1 {
@@ -236,26 +184,12 @@ start of bottom styles*/
 
 .bottom {
 	background-image: linear-gradient(to top, #2B2B2B, #4d4d4d);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 	padding-bottom: 0.5rem;
->>>>>>> 4ae92fc (new implementation patch)
-=======
-	padding-bottom: 0.5rem;
->>>>>>> 4ae92fc6bd5124264f9b4ca95470891b15c57722
 }
 
 form {
 	background-color: #bbb;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 	padding: 2rem;
->>>>>>> 4ae92fc (new implementation patch)
-=======
-	padding: 2rem;
->>>>>>> 4ae92fc6bd5124264f9b4ca95470891b15c57722
 }
 
 .w3-container {
@@ -268,11 +202,6 @@ form {
 	color: white;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 4ae92fc6bd5124264f9b4ca95470891b15c57722
 .mb-3 {
 	margin: 2rem;
 }
@@ -281,10 +210,6 @@ form {
 	margin-right: 2rem;
 }
 
-<<<<<<< HEAD
->>>>>>> 4ae92fc (new implementation patch)
-=======
->>>>>>> 4ae92fc6bd5124264f9b4ca95470891b15c57722
 /*end of bottom styles
 
 _____________________________________________________________________
@@ -313,11 +238,6 @@ start of buttons styles*/
 	color: black;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 4ae92fc6bd5124264f9b4ca95470891b15c57722
   input:checked + .slider {
     background-color: var(--font-color-left);
   }
@@ -326,10 +246,6 @@ start of buttons styles*/
     box-shadow: 0 0 1px var(--font-color-right);
   }
   
-<<<<<<< HEAD
->>>>>>> 4ae92fc (new implementation patch)
-=======
->>>>>>> 4ae92fc6bd5124264f9b4ca95470891b15c57722
 /*end of buttons styles*/
 
 #fillEmail {

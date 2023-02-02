@@ -73,7 +73,6 @@ Update : January 29th, 19:37hs Bs. As. Argentina (GMT-3)
 	- Modal animation added.
 . Changed the background colours #fbb03b, #ffffff for #2b2b2b, #eecd8c, and #bbb.
 ________________________________________________________________________________________________________________________
-<<<<<<< HEAD
 Update : Fabruary 1st, 20:48hs Bs. As. Argentina (GMT-3)
 
 . Added a responsive stick Navbar with scroll.
@@ -91,5 +90,3 @@ Update : Fabruary 1st, 20:48hs Bs. As. Argentina (GMT-3)
 . Fixed padding/margin visual.
 	- Changed the margin and padding of the form.
 ________________________________________________________________________________________________________________________
-=======
->>>>>>> 4ae92fc6bd5124264f9b4ca95470891b15c57722
